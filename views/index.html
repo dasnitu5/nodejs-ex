@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Welcome to OpenShift</title>
+  <title>Welcome to Nitu's OpenShift</title>
 
 
 <style>
@@ -216,7 +216,7 @@ pre {
 
 <section class='container'>
           <hgroup>
-            <h1>Welcome to your Node.js application on OpenShift</h1>
+            <h1>Nitu....Welcome to your Node.js application on OpenShift</h1>
           </hgroup>
 
 
@@ -286,19 +286,16 @@ $ git push</pre>
 
                 <h2>Request information</h2>
                 <p>Page view count:
-                <% if (pageCountMessage) { %>
-                   <span class="code" id="count-value"><%=pageCountMessage%></span>
+                
+                   <span class="code" id="count-value">95</span>
                    </p>
                     <div class="code"><h3>DB Connection Info:</h3>
                       <table style='margin-left: 20px'>
-                          <tr><td>Type:</td><td><%= dbInfo.type %></td></tr>
-                          <tr><td>URL:</td><td><%= dbInfo.url %></td></tr>
+                          <tr><td>Type:</td><td>MongoDB</td></tr>
+                          <tr><td>URL:</td><td>mongodb://172.30.231.99:27017/sampledb</td></tr>
                       </table>
                     </div>
-                <% } else { %>
-                   <span class="code" id="count-value">No database configured</span>
-                   </p>
-                <%} %>
+                
           </section>
         </div>
 
